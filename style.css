@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    font: bold;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    margin: 25px;
+    margin-left: 15px;
+}
+
+.main {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px bold;
+    display: inline;
+    padding: 15px;
+    float: right;
+}
+
+.imagen {
+    margin-right: 70px;
+    padding-right: 70px;
+}
+img {
+    padding: 150px -150px 50px 50px ;
+    max-height: 400px;   
+}
