@@ -5,6 +5,7 @@
 }
 
 body {
+    background-position: 434px 160px;
     background-repeat: no-repeat;
     background-image: url('/img/team\ \(5\).png');
 }
@@ -44,11 +45,8 @@ header .navbar li a {
     color: #766F68;
 }
  
-/* Textos, Botão e Imagem */
+/* Textos e Botão */
 div .container {
-    
-    background-image: url(/img/team.jpg);
-    
     align-items: center;
     display: flex;
 }
@@ -68,6 +66,12 @@ div p {
     font-size: 30px;
 }
 
+.text {
+    position: absolute;
+    margin: 70px 0 0 50px;
+}
+
+
 .btn {
     cursor: pointer;
     box-shadow: 0 0 0 0;
@@ -82,16 +86,11 @@ div p {
     padding: 20px 120px 20px 120px;
 }
 
-.text {
-    position: absolute;
-    margin: 70px 0 0 50px;
-}
-
-.imagen {
-    
-    top: 260px;
-    margin-left: 200px;
-    text-align: center;
-}
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    body, .container {
+        width: 100%;
+    }
+} 
 
 
