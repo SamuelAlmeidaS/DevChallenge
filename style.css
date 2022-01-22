@@ -1,31 +1,66 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
-.logo {
-    font: bold;
-    font-family: Helvetica, sans-serif;
-    font-size: 15px;
-    display: block;
-    margin: 25px;
-    margin-left: 15px;
+/* Cabaçalho */
+header {
+    width: 100%;
+    display: flex;
 }
 
-.main {
-    font-family: Helvetica, sans-serif;
-    font-size: 15px bold;
-    display: inline;
-    padding: 15px;
-    float: right;
+/* Logo */
+header .logo {
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    padding: 20px 0 15px 25px;
+    color: #dda35d;
+
+}
+/* Menu */
+header .navbar {
+    
+    width: 70%;
+    margin-left: 60%;
+    list-style: none;
+    display: inline-flex;
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+}
+header .navbar li {
+    padding: 0 15px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: #818184;
+}
+ 
+/* Textos, Botão e Imagem */
+div .container {
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+}
+
+div h2 {
+    font-family: 'Dongle', sans-serif;
+    color: #818184;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.text {
+    margin-top: 50px;
 }
 
 .imagen {
-    margin-right: 70px;
-    padding-right: 70px;
+    text-align: center;
 }
-img {
-    padding: 150px -150px 50px 50px ;
-    max-height: 400px;   
-}
+
+
