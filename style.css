@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-repeat: no-repeat;
+    background-image: url('/img/team\ \(5\).png');
+}
+
 /* Cabaçalho */
 header {
     width: 100%;
@@ -16,12 +21,11 @@ header .logo {
     font-family: 'roboto', sans-serif;
     font-size: 25px;
     padding: 20px 0 15px 25px;
-    color: #dda35d;
+    color: #D2872C;
 
 }
 /* Menu */
 header .navbar {
-    
     width: 70%;
     margin-left: 60%;
     list-style: none;
@@ -37,29 +41,56 @@ header .navbar li {
 
 header .navbar li a {
     text-decoration: none;
-    color: #818184;
+    color: #766F68;
 }
  
 /* Textos, Botão e Imagem */
 div .container {
-    width: 100%;
+    
+    background-image: url(/img/team.jpg);
+    
     align-items: center;
-    display: inline-flex;
+    display: flex;
 }
 
 div h2 {
     font-family: 'Dongle', sans-serif;
-    color: #818184;
-    font-size: 50px;
+    color: #766F68;
+    font-size: 70px;
     font-weight: bold;
 
 }
+div p {
+    color: #766F68;
+    font-family: 'Dongle', sans-serif;
+    padding: 15px 15px 15px 0;
+    margin: 17px 0 50px 0;
+    font-size: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    background: #D2872C;
+    border-radius: 10px;
+    padding: 20px 120px 20px 120px;
+}
 
 .text {
-    margin-top: 50px;
+    position: absolute;
+    margin: 70px 0 0 50px;
 }
 
 .imagen {
+    
+    top: 260px;
+    margin-left: 200px;
     text-align: center;
 }
 
