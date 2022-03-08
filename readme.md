@@ -5,4 +5,3 @@
  
 * HTML
 * CSS
-* Sem responsividade

@@ -1,0 +1,22 @@
+@media screen and (max-width: 720px){
+
+    body {
+        max-width: 700px;
+        background-image: none;
+    }
+
+    .text {
+        font-size: 15px;
+        text-align: center;
+    }
+    header .navbar {
+        display: none;
+    }
+    
+    header .menu {
+        margin-right: 50px;
+        justify-content: none;
+        display: flex;
+    }
+    
+}
