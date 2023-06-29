@@ -1,7 +1,7 @@
-## DevChallenge
+# 🧠DevChallenge
 
 
-### Tech
+## ⚙️Tech
  
 * HTML
 * CSS
